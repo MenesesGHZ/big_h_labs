@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/labs.dir/main.cpp.o -o labs  liblab.a 
