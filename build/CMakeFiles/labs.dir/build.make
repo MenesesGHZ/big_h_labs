@@ -93,6 +93,8 @@ labs_EXTERNAL_OBJECTS =
 labs: CMakeFiles/labs.dir/main.cpp.o
 labs: CMakeFiles/labs.dir/build.make
 labs: liblab.a
+labs: librabin_karp_search.a
+labs: libutils.a
 labs: CMakeFiles/labs.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/meneses/Documents/algo_analisis/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable labs"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/labs.dir/link.txt --verbose=$(VERBOSE)

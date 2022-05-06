@@ -233,6 +233,9 @@ labs_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 labs_SOURCE_DIR:STATIC=/home/meneses/Documents/algo_analisis
 
+//Dependencies for the target
+rabin_karp_search_LIB_DEPENDS:STATIC=general;utils;
+
 
 ########################
 # INTERNAL cache entries

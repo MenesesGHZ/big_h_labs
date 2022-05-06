@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/labs.dir/main.cpp.o -o labs  liblab.a 
+/usr/bin/c++ CMakeFiles/labs.dir/main.cpp.o -o labs  liblab.a librabin_karp_search.a libutils.a 

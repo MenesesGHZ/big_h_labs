@@ -1,4 +1,6 @@
 /home/meneses/Documents/algo_analisis/build/CMakeFiles/labs.dir
 /home/meneses/Documents/algo_analisis/build/CMakeFiles/lab.dir
+/home/meneses/Documents/algo_analisis/build/CMakeFiles/utils.dir
+/home/meneses/Documents/algo_analisis/build/CMakeFiles/rabin_karp_search.dir
 /home/meneses/Documents/algo_analisis/build/CMakeFiles/edit_cache.dir
 /home/meneses/Documents/algo_analisis/build/CMakeFiles/rebuild_cache.dir

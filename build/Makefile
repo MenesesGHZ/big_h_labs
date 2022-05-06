@@ -142,6 +142,32 @@ lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
 .PHONY : lab/fast
 
+#=============================================================================
+# Target rules for targets named utils
+
+# Build rule for target.
+utils: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 utils
+.PHONY : utils
+
+# fast build rule for target.
+utils/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/build
+.PHONY : utils/fast
+
+#=============================================================================
+# Target rules for targets named rabin_karp_search
+
+# Build rule for target.
+rabin_karp_search: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rabin_karp_search
+.PHONY : rabin_karp_search
+
+# fast build rule for target.
+rabin_karp_search/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rabin_karp_search.dir/build.make CMakeFiles/rabin_karp_search.dir/build
+.PHONY : rabin_karp_search/fast
+
 lib/lab.o: lib/lab.cpp.o
 .PHONY : lib/lab.o
 
@@ -165,6 +191,54 @@ lib/lab.s: lib/lab.cpp.s
 lib/lab.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/lib/lab.cpp.s
 .PHONY : lib/lab.cpp.s
+
+lib/rabin_karp_search.o: lib/rabin_karp_search.cpp.o
+.PHONY : lib/rabin_karp_search.o
+
+# target to build an object file
+lib/rabin_karp_search.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rabin_karp_search.dir/build.make CMakeFiles/rabin_karp_search.dir/lib/rabin_karp_search.cpp.o
+.PHONY : lib/rabin_karp_search.cpp.o
+
+lib/rabin_karp_search.i: lib/rabin_karp_search.cpp.i
+.PHONY : lib/rabin_karp_search.i
+
+# target to preprocess a source file
+lib/rabin_karp_search.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rabin_karp_search.dir/build.make CMakeFiles/rabin_karp_search.dir/lib/rabin_karp_search.cpp.i
+.PHONY : lib/rabin_karp_search.cpp.i
+
+lib/rabin_karp_search.s: lib/rabin_karp_search.cpp.s
+.PHONY : lib/rabin_karp_search.s
+
+# target to generate assembly for a file
+lib/rabin_karp_search.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rabin_karp_search.dir/build.make CMakeFiles/rabin_karp_search.dir/lib/rabin_karp_search.cpp.s
+.PHONY : lib/rabin_karp_search.cpp.s
+
+lib/utils.o: lib/utils.cpp.o
+.PHONY : lib/utils.o
+
+# target to build an object file
+lib/utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/lib/utils.cpp.o
+.PHONY : lib/utils.cpp.o
+
+lib/utils.i: lib/utils.cpp.i
+.PHONY : lib/utils.i
+
+# target to preprocess a source file
+lib/utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/lib/utils.cpp.i
+.PHONY : lib/utils.cpp.i
+
+lib/utils.s: lib/utils.cpp.s
+.PHONY : lib/utils.s
+
+# target to generate assembly for a file
+lib/utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/utils.dir/build.make CMakeFiles/utils.dir/lib/utils.cpp.s
+.PHONY : lib/utils.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -200,9 +274,17 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lab"
 	@echo "... labs"
+	@echo "... rabin_karp_search"
+	@echo "... utils"
 	@echo "... lib/lab.o"
 	@echo "... lib/lab.i"
 	@echo "... lib/lab.s"
+	@echo "... lib/rabin_karp_search.o"
+	@echo "... lib/rabin_karp_search.i"
+	@echo "... lib/rabin_karp_search.s"
+	@echo "... lib/utils.o"
+	@echo "... lib/utils.i"
+	@echo "... lib/utils.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
